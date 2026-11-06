@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/carsongee/pytest-pylint/commit/35ffa7124a8775285336d01cd9a6880a094bf66e",
       "git:hexsha": "35ffa7124a8775285336d01cd9a6880a094bf66e",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-11-06T03:02:00.952265+00:00"
     },
     {
       "@id": "https://repolex.ai/r/carsongee/pytest-pylint/commit/18b8fa225dbfa0421f508a109c8c4bc8576bad3d",
