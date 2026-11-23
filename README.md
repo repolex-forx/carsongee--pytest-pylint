@@ -36,9 +36,15 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 .
 ├── aggregate
 │   ├── ast
+│   │   ├── 229b64fcef27c5ac436f3b3a3d0ca07df0bf8b52
+│   │   │   └── chunk-001.nq.gz
 │   │   └── 35ffa7124a8775285336d01cd9a6880a094bf66e
 │   │       └── chunk-001.nq.gz
+│   ├── lsp
+│   │   └── 229b64fcef27c5ac436f3b3a3d0ca07df0bf8b52.nq.gz
 │   └── repolex
+│       ├── 229b64fcef27c5ac436f3b3a3d0ca07df0bf8b52
+│       │   └── chunk-001.nq.gz
 │       └── 35ffa7124a8775285336d01cd9a6880a094bf66e
 │           └── chunk-001.nq.gz
 ├── blob
@@ -53,17 +59,22 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 │   ├── 618d6e8c214347238f21e5216b719b7e992830ff.nq.gz
 │   ├── 7bf571d29d9af1c90feff1f78c02479bc592b233.nq.gz
 │   ├── 954acda072604656e88386d3cf9852054cee2691.nq.gz
+│   ├── 97b182b8015faa53997503dffe6579ce55514c64.nq.gz
 │   ├── 9d0ef656b7d312f1cf4148e338328755f9a20ddb.nq.gz
 │   ├── b79016598da43b1e5f0438ecd5eb6d714ff45374.nq.gz
 │   ├── c3aff1aed78ca6cd1c565a1813d99c8bb6da0602.nq.gz
 │   ├── cdb60f52866862fa35faa9d7b7acc058999b3a71.nq.gz
+│   ├── dcab2abb04d27b08437a3e9baf5920943354bade.nq.gz
 │   ├── e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz
 │   └── f966a5eb3bbff3ed8c8006e753b3b3acbfd3a40e.nq.gz
 ├── branch
 │   └── branch.nq.gz
 ├── commit
 │   └── commit.nq.gz
+├── dep
+│   └── 229b64fcef27c5ac436f3b3a3d0ca07df0bf8b52.nq.gz
 ├── filetree
+│   ├── 229b64fcef27c5ac436f3b3a3d0ca07df0bf8b52.nq.gz
 │   └── 35ffa7124a8775285336d01cd9a6880a094bf66e.nq.gz
 ├── issue
 │   └── issue.nq.gz
@@ -72,7 +83,7 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 └── tag
     └── tag.nq.gz
 
-13 directories, 25 files
+17 directories, 32 files
 ```
 
 | Directory | What it contains |
@@ -93,4 +104,4 @@ All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) 
 [carsongee/pytest-pylint](https://github.com/carsongee/pytest-pylint)
 
 ---
-*Parsed on 2026-11-06 by [repolex](https://repolex.ai)*
+*Parsed on 2026-11-23 by [repolex](https://repolex.ai)*
